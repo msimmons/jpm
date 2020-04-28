@@ -1,0 +1,1807 @@
+Found 2.5.8 for ${groovy.version}
+Found 2.5.8 for ${groovy.version}
+Found 2.5.8 for ${groovy.version}
+Found 2.5.8 for ${groovy.version}
+Found 2.5.8 for ${groovy.version}
+Found 2.5.8 for ${groovy.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.3.RELEASE for ${gorm.version}
+Found 7.0.2.RELEASE for ${gorm.hibernate.version}
+Found 2.10.1 for ${jackson.version}
+Found 2.10.1 for ${jackson.version}
+Found 2.10.1 for ${jackson.databind.version}
+Found 2.10.1 for ${jackson.modules.version}
+Found 2.10.1 for ${jackson.modules.version}
+Found 2.10.1 for ${jackson.modules.version}
+Found 2.10.1 for ${jackson.modules.version}
+Found 2.10.1 for ${jackson.datatype.version}
+Found 2.10.1 for ${jackson.datatype.version}
+Found 2.10.1 for ${jackson.dataformat.version}
+Found 1.0.0 for ${jaeger.version}
+Found 2.10.0 for ${zipkin.reporter.version}
+Found 5.9.0 for ${brave.instrumentation.version}
+Found 0.35.0 for ${brave.opentracing.version}
+Found 1.3.2 for ${javax.annotation-api.version}
+Found 3.0.2 for ${jsr305.version}
+Found 1.4.0 for ${micronaut.kafka.version}
+Found 1.4.0 for ${micronaut.kafka.version}
+Found 1.2.0 for ${micronaut.cassandra.version}
+Found 1.2.0 for ${micronaut.hibernate.validator.version}
+Found 1.2.0 for ${micronaut.jmx.version}
+Found 1.2.1 for ${micronaut.picocli.version}
+Found 1.1.2 for ${micronaut.rabbitmq.version}
+Found 1.2.2 for ${micronaut.graphql.version}
+Found 1.1.1 for ${micronaut.graphql.gorm.version}
+Found 1.1.1 for ${micronaut.groovy.version}
+Found 1.1.1 for ${micronaut.groovy.version}
+Found 1.3.9 for ${micronaut.aws.version}
+Found 1.1.0 for ${micronaut.gcp.version}
+Found 1.1.0 for ${micronaut.gcp.version}
+Found 1.1.0 for ${micronaut.elasticsearch.version}
+Found 1.1.0 for ${micronaut.flyway.version}
+Found 1.3.9 for ${micronaut.function-aws.version}
+Found 1.3.9 for ${micronaut.function.aws.version}
+Found 1.3.9 for ${micronaut.function.aws.version}
+Found 1.3.9 for ${micronaut.function.aws.version}
+Found 1.1.1 for ${micronaut.gorm.version}
+Found 1.1.1 for ${micronaut.gorm.version}
+Found 1.1.1 for ${micronaut.gorm.version}
+Found 1.1.1 for ${micronaut.gorm.version}
+Found 1.1.1 for ${micronaut.gorm.version}
+Found 1.1.0 for ${micronaut.liquibase.version}
+Found 1.1.0 for ${micronaut.netflix.version}
+Found 1.1.0 for ${micronaut.netflix.version}
+Found 1.1.0 for ${micronaut.netflix.version}
+Found 1.4.0 for ${micronaut.openapi.version}
+Found 2.4.0 for ${kafka.version}
+Found 2.4.0 for ${kafka.version}
+Found 2.4.0 for ${kafka.version}
+Found 1.1.1 for ${micronaut.grpc.version}
+Found 1.1.1 for ${micronaut.grpc.version}
+Found 1.1.2 for ${micronaut.test.version}
+Found 1.1.2 for ${micronaut.test.version}
+Found 1.1.2 for ${micronaut.test.version}
+Found 1.1.2 for ${micronaut.test.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.0.0 for ${micronaut.data.version}
+Found 1.3.1 for ${micrometer.version}
+Found 1.3.1 for ${micrometer.version}
+Found 1.3.1 for ${micrometer.version}
+Found 1.3.1 for ${micrometer.version}
+Found 1.3.1 for ${micrometer.version}
+Found 5.6.0 for ${junit5.version}
+Found 5.6.0 for ${junit5.version}
+Found 5.6.0 for ${junit5.version}
+Found 5.6.0 for ${junitVintage.version}
+Found 1.0.0 for ${micronaut.xml.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.3.0 for ${micronaut.micrometer.version}
+Found 1.0.2 for ${micronaut.spring.version}
+Found 1.0.2 for ${micronaut.spring.version}
+Found 1.0.2 for ${micronaut.spring.version}
+Found 1.0.2 for ${micronaut.spring.version}
+Found 1.0.2 for ${micronaut.spring.version}
+Found 1.0.2 for ${micronaut.spring.version}
+Found 1.3.0 for ${micronaut.sql.version}
+Found 1.3.0 for ${micronaut.sql.version}
+Found 1.3.0 for ${micronaut.sql.version}
+Found 1.3.0 for ${micronaut.sql.version}
+Found 1.3.0 for ${micronaut.sql.version}
+Found 1.3.0 for ${micronaut.sql.version}
+Found 1.3.0 for ${micronaut.sql.version}
+Found 1.3.0 for ${micronaut.mongo.version}
+Found 1.2.0 for ${micronaut.redis.version}
+Found 1.3.0 for ${micronaut.neo4j.version}
+Found 3.12.0 for ${mongo.version}
+Found 3.12.0 for ${mongo.version}
+Found 1.13.0 for ${mongo.reactive.version}
+Found 3.5.2 for ${neo4j.version}
+Found 1.7.5 for ${neo4j.bolt.version}
+Found 1.1.0 for ${jcache.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 4.1.45.Final for ${netty.version}
+Found 0.33.0 for ${opentracing.version}
+Found 0.33.0 for ${opentracing.version}
+Found 4.0.1 for ${picocli.version}
+Found 5.2.1.RELEASE for ${lettuce.version}
+Found 5.2.3.RELEASE for ${spring.version}
+Found 5.2.3.RELEASE for ${spring.version}
+Found 5.2.3.RELEASE for ${spring.version}
+Found 5.2.3.RELEASE for ${spring.version}
+Found 5.2.3.RELEASE for ${spring.version}
+Found 1.24 for ${snakeyaml.version}
+Found 1.7.26 for ${slf4j.version}
+Found 1.7.26 for ${slf4j.version}
+Found 1.3-groovy-2.5 for ${spock.version}
+Found 2.0.4 for ${swagger.version}
+Found 2.0.4 for ${swagger.version}
+Found 2.0.4 for ${swagger.version}
+Found 1.0.3 for ${reactive.streams.version}
+Found 0.11.4 for ${reactive.pg.client.version}
+Found 1.3.8 for ${rxjava1.version}
+Found 0.13.7 for ${rxjava1.interop.version}
+Found 2.2.10 for ${rxjava2.version}
+Found 3.2.10.RELEASE for ${reactor.version}
+Found 2.0.1.Final for ${validation.version}
+Found 1.5.18 for ${hystrix.version}
+Found 1.5.18 for ${hystrix.version}
+Found 19.2.1 for ${graalSubstrate.version}
+Found 20.0.0 for ${graal.version}
+Found 1.4.199 for ${h2.version}
+Found 9.0.21 for ${tomcatJdbc.version}
+Found 3.6.3 for ${liquibase.version}
+Found 5.2.4 for ${flyway.version}
+Found 5.3.1 for ${jna.version}
+Found 5.4.10.Final for ${hibernate.version}
+Found 5.4.10.Final for ${hibernate.version}
+Found 5.4.10.Final for ${hibernate.version}
+Found 6.4.0 for ${elasticsearch.version}
+Found 0.9.6 for ${methvin.directory-watcher.version}
+Found 1.3.1 for ${micronaut.security.version}
+Found 1.3.1 for ${micronaut.security.version}
+Found 1.3.1 for ${micronaut.security.version}
+Found 1.3.1 for ${micronaut.security.configuration.version}
+Found 1.3.1 for ${micronaut.security.configuration.version}
+Found 1.3.1 for ${micronaut.views.version}
+Found 1.3.1 for ${micronaut.views.version}
+Found 1.3.1 for ${micronaut.views.version}
+Found 1.3.1 for ${micronaut.views.version}
+Found 1.3.1 for ${micronaut.views.version}
+Found 1.3.1 for ${micronaut.views.version}
+Found 1.0.0 for ${micronaut.rss.version}
+Found 1.0.0 for ${micronaut.rss.version}
+Found 1.0.3 for ${micronaut.kubernetes.version}
+Found 1.1.0 for ${micronaut.cache.version}
+Found 1.1.0 for ${micronaut.cache.version}
+Found 1.1.0 for ${micronaut.cache.version}
+Found 3.8.4 for ${stack.version}
+{
+  groupId: 'org.jetbrains.kotlin',
+  artifactId: 'kotlin-stdlib-jdk8',
+  version: '1.3.61',
+  scope: 'compile'
+}
+{
+  groupId: 'org.jetbrains.kotlin',
+  artifactId: 'kotlin-stdlib',
+  version: '1.3.61',
+  scope: 'compile',
+  transitive: true
+}
+{
+  groupId: 'org.jetbrains.kotlin',
+  artifactId: 'kotlin-stdlib-jdk7',
+  version: '1.3.61',
+  scope: 'compile',
+  transitive: true
+}
+{
+  groupId: 'org.jetbrains.kotlin',
+  artifactId: 'kotlin-test-junit',
+  version: '1.3.61',
+  scope: 'test',
+  transitive: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-bom',
+  version: '1.3.2',
+  scope: 'compile'
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'base',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'kafka',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'function-aws',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'configuration',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'federation',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'profile',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'cli',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'function',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'function-aws-alexa',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'rabbitmq',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'service',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.profiles',
+  artifactId: 'grpc',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-aop',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-buffer-netty',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-cli',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-core',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-discovery-client',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-function',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-function-client',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-function-web',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-graal',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-http',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-http-client',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-http-netty',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-http-server',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-http-server-netty',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-inject',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-inject-groovy',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-inject-java',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-inject-java-test',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-jdbc',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-management',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-messaging',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-multitenancy',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-router',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-runtime',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-runtime-osx',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-session',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-spring',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-tracing',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-validation',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-websocket',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'org.codehaus.groovy',
+  artifactId: 'groovy',
+  version: '2.5.8',
+  bom: true
+}
+{
+  groupId: 'org.codehaus.groovy',
+  artifactId: 'groovy-test',
+  version: '2.5.8',
+  bom: true
+}
+{
+  groupId: 'org.codehaus.groovy',
+  artifactId: 'groovy-ant',
+  version: '2.5.8',
+  bom: true
+}
+{
+  groupId: 'org.codehaus.groovy',
+  artifactId: 'groovy-json',
+  version: '2.5.8',
+  bom: true
+}
+{
+  groupId: 'org.codehaus.groovy',
+  artifactId: 'groovy-jmx',
+  version: '2.5.8',
+  bom: true
+}
+{
+  groupId: 'org.codehaus.groovy',
+  artifactId: 'groovy-templates',
+  version: '2.5.8',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-core',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-gorm',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-async',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-gorm-async',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-gorm-support',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-gorm-test',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-gorm-validation',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-gorm-web',
+  version: '7.0.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.grails',
+  artifactId: 'grails-datastore-gorm-hibernate5',
+  version: '7.0.2.RELEASE',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.core',
+  artifactId: 'jackson-core',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.core',
+  artifactId: 'jackson-annotations',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.core',
+  artifactId: 'jackson-databind',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.module',
+  artifactId: 'jackson-module-afterburner',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.module',
+  artifactId: 'jackson-module-kotlin',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.module',
+  artifactId: 'jackson-module-parameter-names',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.module',
+  artifactId: 'jackson-module-jaxb-annotations',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.datatype',
+  artifactId: 'jackson-datatype-jdk8',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.datatype',
+  artifactId: 'jackson-datatype-jsr310',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'com.fasterxml.jackson.dataformat',
+  artifactId: 'jackson-dataformat-xml',
+  version: '2.10.1',
+  bom: true
+}
+{
+  groupId: 'io.jaegertracing',
+  artifactId: 'jaeger-thrift',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.zipkin.reporter2',
+  artifactId: 'zipkin-reporter',
+  version: '2.10.0',
+  bom: true
+}
+{
+  groupId: 'io.zipkin.brave',
+  artifactId: 'brave-instrumentation-http',
+  version: '5.9.0',
+  bom: true
+}
+{
+  groupId: 'io.opentracing.brave',
+  artifactId: 'brave-opentracing',
+  version: '0.35.0',
+  bom: true
+}
+{
+  groupId: 'javax.annotation',
+  artifactId: 'javax.annotation-api',
+  version: '1.3.2',
+  bom: true
+}
+{
+  groupId: 'com.google.code.findbugs',
+  artifactId: 'jsr305',
+  version: '3.0.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-kafka',
+  version: '1.4.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-kafka-streams',
+  version: '1.4.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-cassandra',
+  version: '1.2.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-hibernate-validator',
+  version: '1.2.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-jmx',
+  version: '1.2.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-picocli',
+  version: '1.2.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-rabbitmq',
+  version: '1.1.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.graphql',
+  artifactId: 'micronaut-graphql',
+  version: '1.2.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.graphql',
+  artifactId: 'micronaut-graphql-gorm',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-runtime-groovy',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-function-groovy',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-aws-common',
+  version: '1.3.9',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.gcp',
+  artifactId: 'micronaut-gcp-common',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.gcp',
+  artifactId: 'micronaut-gcp-tracing',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-elasticsearch',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-flyway',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-function-aws',
+  version: '1.3.9',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.aws',
+  artifactId: 'micronaut-function-aws-api-proxy',
+  version: '1.3.9',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.aws',
+  artifactId: 'micronaut-function-aws-custom-runtime',
+  version: '1.3.9',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.aws',
+  artifactId: 'micronaut-function-aws-alexa',
+  version: '1.3.9',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-gorm-common',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-multitenancy-gorm',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-neo4j-gorm',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-mongo-gorm',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-hibernate-gorm',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-liquibase',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-netflix-archaius',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-netflix-hystrix',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-netflix-ribbon',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-openapi',
+  version: '1.4.0',
+  bom: true
+}
+{
+  groupId: 'org.apache.kafka',
+  artifactId: 'kafka-clients',
+  version: '2.4.0',
+  bom: true
+}
+{
+  groupId: 'org.apache.kafka',
+  artifactId: 'kafka_2.12',
+  version: '2.4.0',
+  bom: true
+}
+{
+  groupId: 'org.apache.kafka',
+  artifactId: 'kafka-streams',
+  version: '2.4.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.grpc',
+  artifactId: 'micronaut-grpc-runtime',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.grpc',
+  artifactId: 'micronaut-grpc-annotation',
+  version: '1.1.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.test',
+  artifactId: 'micronaut-test-core',
+  version: '1.1.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.test',
+  artifactId: 'micronaut-test-spock',
+  version: '1.1.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.test',
+  artifactId: 'micronaut-test-junit5',
+  version: '1.1.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.test',
+  artifactId: 'micronaut-test-kotlintest',
+  version: '1.1.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-model',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-hibernate-jpa',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-jdbc',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-processor',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-runtime',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-spring',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-spring-jpa',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-rx',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.data',
+  artifactId: 'micronaut-data-rx-hibernate',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micrometer',
+  artifactId: 'micrometer-core',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micrometer',
+  artifactId: 'micrometer-registry-atlas',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micrometer',
+  artifactId: 'micrometer-registry-graphite',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micrometer',
+  artifactId: 'micrometer-registry-prometheus',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micrometer',
+  artifactId: 'micrometer-registry-statsd',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'org.junit.jupiter',
+  artifactId: 'junit-jupiter-api',
+  version: '5.6.0',
+  bom: true
+}
+{
+  groupId: 'org.junit.jupiter',
+  artifactId: 'junit-jupiter-engine',
+  version: '5.6.0',
+  bom: true
+}
+{
+  groupId: 'org.junit.jupiter',
+  artifactId: 'junit-jupiter-params',
+  version: '5.6.0',
+  bom: true
+}
+{
+  groupId: 'org.junit.vintage',
+  artifactId: 'junit-vintage-engine',
+  version: '5.6.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.xml',
+  artifactId: 'micronaut-jackson-xml',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-core',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-appoptics',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-atlas',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-azure-monitor',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-cloudwatch',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-datadog',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-dynatrace',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-elastic',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-ganglia',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-graphite',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-humio',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-influx',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-jmx',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-kairos',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-new-relic',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-prometheus',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-signalfx',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-stackdriver',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-statsd',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-micrometer-registry-wavefront',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.spring',
+  artifactId: 'micronaut-spring-annotation',
+  version: '1.0.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.spring',
+  artifactId: 'micronaut-spring-boot',
+  version: '1.0.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.spring',
+  artifactId: 'micronaut-spring-boot-annotation',
+  version: '1.0.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.spring',
+  artifactId: 'micronaut-spring-context',
+  version: '1.0.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.spring',
+  artifactId: 'micronaut-spring-web',
+  version: '1.0.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.spring',
+  artifactId: 'micronaut-spring-web-annotation',
+  version: '1.0.2',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-hibernate-jpa',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-jdbc-tomcat',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-jdbc-hikari',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-jdbc-dbcp',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-postgres-reactive',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-jasync-sql',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-jooq',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-mongo-reactive',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-redis-lettuce',
+  version: '1.2.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-neo4j-bolt',
+  version: '1.3.0',
+  bom: true
+}
+{
+  groupId: 'org.mongodb',
+  artifactId: 'mongodb-driver-async',
+  version: '3.12.0',
+  bom: true
+}
+{
+  groupId: 'org.mongodb',
+  artifactId: 'mongo-java-driver',
+  version: '3.12.0',
+  bom: true
+}
+{
+  groupId: 'org.mongodb',
+  artifactId: 'mongodb-driver-reactivestreams',
+  version: '1.13.0',
+  bom: true
+}
+{
+  groupId: 'org.neo4j.test',
+  artifactId: 'neo4j-harness',
+  version: '3.5.2',
+  bom: true
+}
+{
+  groupId: 'org.neo4j.driver',
+  artifactId: 'neo4j-java-driver',
+  version: '1.7.5',
+  bom: true
+}
+{
+  groupId: 'javax.cache',
+  artifactId: 'cache-api',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-http',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-all',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-buffer',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-dns',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-haproxy',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-http2',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-memcache',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-mqtt',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-redis',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-smtp',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-socks',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-stomp',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-codec-xml',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-common',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-dev-tools',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-handler',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-handler-proxy',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-resolver',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-resolver-dns',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-transport',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-transport-rxtx',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-transport-sctp',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-transport-udt',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-transport-native-epoll',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.netty',
+  artifactId: 'netty-transport-native-kqueue',
+  version: '4.1.45.Final',
+  bom: true
+}
+{
+  groupId: 'io.opentracing',
+  artifactId: 'opentracing-api',
+  version: '0.33.0',
+  bom: true
+}
+{
+  groupId: 'io.opentracing',
+  artifactId: 'opentracing-util',
+  version: '0.33.0',
+  bom: true
+}
+{
+  groupId: 'info.picocli',
+  artifactId: 'picocli',
+  version: '4.0.1',
+  bom: true
+}
+{
+  groupId: 'io.lettuce',
+  artifactId: 'lettuce-core',
+  version: '5.2.1.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.springframework',
+  artifactId: 'spring-core',
+  version: '5.2.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.springframework',
+  artifactId: 'spring-context',
+  version: '5.2.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.springframework',
+  artifactId: 'spring-tx',
+  version: '5.2.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.springframework',
+  artifactId: 'spring-orm',
+  version: '5.2.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.springframework',
+  artifactId: 'spring-jdbc',
+  version: '5.2.3.RELEASE',
+  bom: true
+}
+{
+  groupId: 'org.yaml',
+  artifactId: 'snakeyaml',
+  version: '1.24',
+  bom: true
+}
+{
+  groupId: 'org.slf4j',
+  artifactId: 'slf4j-api',
+  version: '1.7.26',
+  bom: true
+}
+{
+  groupId: 'org.slf4j',
+  artifactId: 'slf4j-simple',
+  version: '1.7.26',
+  bom: true
+}
+{
+  groupId: 'org.spockframework',
+  artifactId: 'spock-core',
+  version: '1.3-groovy-2.5',
+  bom: true
+}
+{
+  groupId: 'io.swagger.core.v3',
+  artifactId: 'swagger-core',
+  version: '2.0.4',
+  bom: true
+}
+{
+  groupId: 'io.swagger.core.v3',
+  artifactId: 'swagger-models',
+  version: '2.0.4',
+  bom: true
+}
+{
+  groupId: 'io.swagger.core.v3',
+  artifactId: 'swagger-annotations',
+  version: '2.0.4',
+  bom: true
+}
+{
+  groupId: 'org.reactivestreams',
+  artifactId: 'reactive-streams',
+  version: '1.0.3',
+  bom: true
+}
+{
+  groupId: 'io.reactiverse',
+  artifactId: 'reactive-pg-client',
+  version: '0.11.4',
+  bom: true
+}
+{
+  groupId: 'io.reactivex',
+  artifactId: 'rxjava',
+  version: '1.3.8',
+  bom: true
+}
+{
+  groupId: 'com.github.akarnokd',
+  artifactId: 'rxjava2-interop',
+  version: '0.13.7',
+  bom: true
+}
+{
+  groupId: 'io.reactivex.rxjava2',
+  artifactId: 'rxjava',
+  version: '2.2.10',
+  bom: true
+}
+{
+  groupId: 'io.projectreactor',
+  artifactId: 'reactor-core',
+  version: '3.2.10.RELEASE',
+  bom: true
+}
+{
+  groupId: 'javax.validation',
+  artifactId: 'validation-api',
+  version: '2.0.1.Final',
+  bom: true
+}
+{
+  groupId: 'com.netflix.hystrix',
+  artifactId: 'hystrix-core',
+  version: '1.5.18',
+  bom: true
+}
+{
+  groupId: 'com.netflix.hystrix',
+  artifactId: 'hystrix-serialization',
+  version: '1.5.18',
+  bom: true
+}
+{
+  groupId: 'com.oracle.substratevm',
+  artifactId: 'svm',
+  version: '19.2.1',
+  bom: true
+}
+{
+  groupId: 'org.graalvm.nativeimage',
+  artifactId: 'svm',
+  version: '20.0.0',
+  bom: true
+}
+{
+  groupId: 'com.h2database',
+  artifactId: 'h2',
+  version: '1.4.199',
+  bom: true
+}
+{
+  groupId: 'org.apache.tomcat',
+  artifactId: 'tomcat-jdbc',
+  version: '9.0.21',
+  bom: true
+}
+{
+  groupId: 'org.liquibase',
+  artifactId: 'liquibase-core',
+  version: '3.6.3',
+  bom: true
+}
+{
+  groupId: 'org.flywaydb',
+  artifactId: 'flyway-core',
+  version: '5.2.4',
+  bom: true
+}
+{
+  groupId: 'net.java.dev.jna',
+  artifactId: 'jna',
+  version: '5.3.1',
+  bom: true
+}
+{
+  groupId: 'org.hibernate',
+  artifactId: 'hibernate-core',
+  version: '5.4.10.Final',
+  bom: true
+}
+{
+  groupId: 'org.hibernate',
+  artifactId: 'hibernate-jcache',
+  version: '5.4.10.Final',
+  bom: true
+}
+{
+  groupId: 'org.hibernate',
+  artifactId: 'hibernate-ehcache',
+  version: '5.4.10.Final',
+  bom: true
+}
+{
+  groupId: 'org.elasticsearch.client',
+  artifactId: 'elasticsearch-rest-high-level-client',
+  version: '6.4.0',
+  bom: true
+}
+{
+  groupId: 'io.methvin',
+  artifactId: 'directory-watcher',
+  version: '0.9.6',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-security',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-security-jwt',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-security-session',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-security-ldap',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-security-oauth2',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-views',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-views-core',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-views-freemarker',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-views-handlebars',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-views-thymeleaf',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut',
+  artifactId: 'micronaut-views-velocity',
+  version: '1.3.1',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-rss',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.configuration',
+  artifactId: 'micronaut-itunespodcast',
+  version: '1.0.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.kubernetes',
+  artifactId: 'micronaut-kubernetes-discovery-client',
+  version: '1.0.3',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.cache',
+  artifactId: 'micronaut-cache-hazelcast',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.cache',
+  artifactId: 'micronaut-cache-ehcache',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.micronaut.cache',
+  artifactId: 'micronaut-cache-noop',
+  version: '1.1.0',
+  bom: true
+}
+{
+  groupId: 'io.vertx',
+  artifactId: 'vertx-unit',
+  version: '3.8.4',
+  scope: 'compile'
+}
+{
+  groupId: 'io.vertx',
+  artifactId: 'vertx-core',
+  type: 'test-jar',
+  scope: 'test',
+  transitive: true,
+  version: undefined
+}
+{
+  groupId: 'junit',
+  artifactId: 'junit',
+  version: 4.12,
+  optional: true,
+  transitive: true
+}
+{
+  groupId: 'io.vertx',
+  artifactId: 'vertx-docgen',
+  scope: 'provided',
+  transitive: true,
+  version: undefined
+}
+{
+  groupId: 'io.vertx',
+  artifactId: 'vertx-codegen',
+  scope: 'provided',
+  transitive: true,
+  version: undefined
+}
+{
+  groupId: 'io.vertx',
+  artifactId: 'vertx-dependencies',
+  version: '3.8.4',
+  type: 'pom',
+  scope: 'import',
+  bom: true
+}
+{ groupId: 'foo', artifactId: 'bar', version: 'baz', scope: 'compile' }

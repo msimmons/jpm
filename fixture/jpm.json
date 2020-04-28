@@ -1,0 +1,93 @@
+{
+    "localRepository": {
+        "name":"Local",
+        "uri":"file:///Users/mark.simmons/.jpm/repo"
+    },
+    "devRepositories": [
+    ],
+    "repositories": [
+        {
+            "name":"Maven Central",
+            "uri":"https://repo1.maven.org/maven2",
+            "authentication": null
+        }
+    ],
+    "dependencies": [
+        {
+            "group":"org.jetbrains.kotlin",
+            "artifact":"kotlin-stdlib-jdk8",
+            "version":"1.3.61"
+        },
+        {
+            "group":"io.micronaut",
+            "artifact":"micronaut-bom",
+            "version":"1.3.2",
+            "bom": true
+        },
+        {
+            "group":"io.vertx",
+            "artifact":"vertx-unit",
+            "version":"3.8.4"
+        },
+        {
+            "group":"foo",
+            "artifact":"bar",
+            "version":"baz"
+        },
+        {
+            "group":"io.micronaut",
+            "artifact":"micronaut-core"
+        }
+    ],
+    "devDependencies": [
+
+    ],
+    "compilers": [
+        {
+            "name": "java-main",
+            "exec":"/Users/mark.simmons/.jenv/shims/javac",
+            "input": "fixture/src/main/java",
+            "output": "fixture/build/main/classes",
+            "generated": "fixture/build/generated-src",
+            "args": [
+                "-d",
+                "${output}",
+                "-cp",
+                "${classpath}:${output}",
+                "-s",
+                "${generated}",
+                "-target",
+                "11",
+                "${sourceFiles}"
+            ]
+        }
+    ],
+    "packagers": [
+        {
+            "name":"jar",
+            "exec":"/Users/mark.simmons/.jenv/shims/jar",
+            "input":"fixture/build/main/classes",
+            "output":"fixture/build/lib/Helluva.jar",
+            "args":[
+                "-cf",
+                "${output}",
+                "-C",
+                "${input}",
+                "."
+            ]
+        },
+        {
+            "name":"source",
+            "exec":"/Users/mark.simmons/.jenv/shims/jar",
+            "input":"fixture/src/main/java",
+            "output":"fixture/build/lib/Helluva-sources.jar",
+            "args":[
+                "-cf",
+                "${output}",
+                "-C",
+                "${input}",
+                "."
+            ]
+        }
+    ]
+}
