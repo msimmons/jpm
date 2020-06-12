@@ -23,3 +23,20 @@ jobs:
           docker-compose --version
           docker --version
           docker images
+      - uses: octokit/request-action@v2.0.2
+        id: create_deployment
+        with:
+          route: POST /repos/:owner/:repo/deployments
+          owner: ${{ github.owner }}
+          repo: ${{ github.repository }}
+          ref: ${{ github.branch }}
+          task: "deploy"
+          auto_merge: false
+          payload: '{"key1": "value1", "key2": 3}'
+          environment: "sbox0"
+          description: "Not sure what to say here"
+          transient_environment: true
+          production_environment: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
