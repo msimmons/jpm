@@ -8,8 +8,8 @@ WORKDIR /opt/jpm
 COPY package*.json ./
 
 RUN apk add --no-cache --virtual .build-deps alpine-sdk python \
-&& npm install -g mocha eslint nodemon \
-&& npm install \
+&& npm --unsafe-perm install -g mocha eslint nodemon \
+&& npm --unsafe-perm install \
 && apk del .build-deps
 
 COPY . ./
