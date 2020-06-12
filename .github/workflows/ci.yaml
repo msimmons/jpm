@@ -5,9 +5,11 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: ShowEnv
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Environment
         run: env
-      - name: DoIt
+      - name: Build
         run: |
           docker-compose build
           docker-compose run -e "NODE_ENV=test" jpm node index.js
