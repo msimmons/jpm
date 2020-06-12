@@ -8,7 +8,9 @@ jobs:
       - name: ShowEnv
         run: env
       - name: DoIt
-        run: npm --version
+        run: |
+          docker-compose build
+          docker-compose run -e "NODE_ENV=test" jpm node index.js
   publish:
     name: Publish
     runs-on: ubuntu-latest
@@ -18,3 +20,4 @@ jobs:
         run: |
           docker-compose --version
           docker --version
+          docker images
