@@ -13,5 +13,6 @@ jobs:
     needs: build
     steps:
       - name: PublishIt
-        run: docker-compose --version
-        run: docker --version
+        run: |
+          docker-compose --version
+          docker --version
