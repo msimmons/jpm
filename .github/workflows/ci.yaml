@@ -31,7 +31,7 @@ jobs:
           repo: "jpm"
           ref: "test-actions"
           task: "deploy"
-          auto_merge: false
+          auto_merge: true
           payload: '{"key1": "value1", "key2": 3}'
           environment: "sbox0"
           description: "Not sure what to say here"
