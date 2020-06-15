@@ -29,14 +29,12 @@ jobs:
           route: POST /repos/:owner/:repo/deployments
           owner: "msimmons"
           repo: "jpm"
-          ref: ${{ github.ref }}
+          ref: "test-actions"
           task: "deploy"
           auto_merge: false
           payload: '{"key1": "value1", "key2": 3}'
           environment: "sbox0"
           description: "Not sure what to say here"
-          transient_environment: true
-          production_environment: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: EchoIt
