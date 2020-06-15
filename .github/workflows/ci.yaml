@@ -11,8 +11,8 @@ jobs:
         run: env
       - name: Build
         run: |
-          docker-compose build
-          docker-compose run -e "NODE_ENV=test" jpm node index.js
+          echo "docker-compose build"
+          echo 'docker-compose run -e "NODE_ENV=test" jpm node index.js'
   publish:
     name: Publish
     runs-on: ubuntu-latest
@@ -27,8 +27,8 @@ jobs:
         id: create_deployment
         with:
           route: POST /repos/:owner/:repo/deployments
-          owner: ${{ github.repository_owner }}
-          repo: ${{ github.repository }}
+          owner: "msimmons"
+          repo: "jpm"
           ref: ${{ github.ref }}
           task: "deploy"
           auto_merge: false
@@ -39,4 +39,6 @@ jobs:
           production_environment: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: EchoIt
+        run: echo {{ steps.create_deployment.outputs }}
   
