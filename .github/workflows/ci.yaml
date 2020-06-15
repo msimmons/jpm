@@ -27,9 +27,9 @@ jobs:
         id: create_deployment
         with:
           route: POST /repos/:owner/:repo/deployments
-          owner: ${{ github.owner }}
+          owner: ${{ github.repository_owner }}
           repo: ${{ github.repository }}
-          ref: ${{ github.branch }}
+          ref: ${{ github.ref }}
           task: "deploy"
           auto_merge: false
           payload: '{"key1": "value1", "key2": 3}'
