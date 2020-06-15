@@ -23,21 +23,21 @@ jobs:
           docker-compose --version
           docker --version
           docker images
-      - uses: octokit/request-action@v2.0.2
-        id: create_deployment
-        with:
-          route: POST /repos/:owner/:repo/deployments
-          owner: "msimmons"
-          repo: "jpm"
-          ref: "test-actions"
-          task: "deploy"
-          auto_merge: false
-          required_contexts: "[]"
-          payload: '{"key1": "value1", "key2": 3}'
-          environment: "sbox0"
-          description: "Not sure what to say here"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - uses: octokit/request-action@v2.0.2
+      #   id: create_deployment
+      #   with:
+      #     route: POST /repos/:owner/:repo/deployments
+      #     owner: "msimmons"
+      #     repo: "jpm"
+      #     ref: "test-actions"
+      #     task: "deploy"
+      #     auto_merge: false
+      #     required_contexts: "[]"
+      #     payload: '{"key1": "value1", "key2": 3}'
+      #     environment: "sbox0"
+      #     description: "Not sure what to say here"
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: EchoIt
-        run: echo {{ steps.create_deployment.outputs }}
+        run: cat {{ github.event_path }}
   
