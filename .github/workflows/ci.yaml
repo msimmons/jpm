@@ -32,7 +32,7 @@ jobs:
           ref: "test-actions"
           task: "deploy"
           auto_merge: false
-          required_contexts: []
+          required_contexts: "[]"
           payload: '{"key1": "value1", "key2": 3}'
           environment: "sbox0"
           description: "Not sure what to say here"
