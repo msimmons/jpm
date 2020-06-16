@@ -27,6 +27,8 @@ jobs:
           repo: "jpm"
           state: "open"
           head: "msimmons:test-actions"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # - uses: octokit/request-action@v2.0.2
       #   id: create_deployment
       #   with:
