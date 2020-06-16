@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Environment
-        run: env
+        run: env | grep -i github
       - name: Build
         run: |
           echo "docker-compose build"
