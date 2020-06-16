@@ -18,11 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: PublishIt
-        run: |
-          docker-compose --version
-          docker --version
-          docker images
+      - name: PullRequest
+        id: get_pull_request
+        uses: octokit/request-action@v2.0.2
+        with:
+          route: GET /repos/:owner/:repo/pulls
+          owner: "msimmons"
+          repo: "jpm"
+          state: "open"
+          head: "msimmons:test-actions"
       # - uses: octokit/request-action@v2.0.2
       #   id: create_deployment
       #   with:
@@ -39,5 +43,5 @@ jobs:
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: EchoIt
-        run: cat ${{ github.event_path }}
+        run: echo ${{ steps.get_pull_request.output }}
   
