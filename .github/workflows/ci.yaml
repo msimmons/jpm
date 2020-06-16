@@ -39,5 +39,5 @@ jobs:
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: EchoIt
-        run: cat {{ github.event_path }}
+        run: cat ${{ github.event_path }}
   
