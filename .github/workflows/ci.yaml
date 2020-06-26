@@ -9,10 +9,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Environment
         run: env | grep -i github
+      - name: Timestamp
+        run: |
+          echo `date +%Y%m%d`
+          echo "::set-env name=TAG_TS::`date +%Y%m%d`"
       - name: Build
         run: |
-          echo "docker-compose build"
-          echo 'docker-compose run -e "NODE_ENV=test" jpm node index.js'
+          echo "the tag would be ${TAG_TS}-${GITHUB_RUN_NUMBER}"
   publish:
     name: Publish
     runs-on: ubuntu-latest
