@@ -48,5 +48,5 @@ jobs:
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: EchoIt
-        run: echo ${{ steps.get_pull_request.outputs }}
+        run: echo ${{ toJson(steps.get_pull_request.outputs) }}
   
