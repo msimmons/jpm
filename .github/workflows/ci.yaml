@@ -48,5 +48,6 @@ jobs:
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: EchoIt
-        run: echo ${{ toJson(steps.get_pull_request.outputs) }}
-  
+        run: echo "${{ toJson(steps.get_pull_request.outputs) }}"
+      - name: Docker Login
+        run: echo "${GITHUB_TOKEN} | docker login https://docker.pkg.github.com -u msimmons --password-stdin"
