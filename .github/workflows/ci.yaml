@@ -17,7 +17,7 @@ jobs:
         run: |
           echo "the tag would be ${TAG_TS}-${GITHUB_RUN_NUMBER}"
       - name: Docker Login
-        run: echo "${GITHUB_TOKEN} | docker login https://docker.pkg.github.com -u msimmons --password-stdin"
+        run: echo $GITHUB_TOKEN | docker login https://docker.pkg.github.com -u msimmons --password-stdin
       - name: Docker Build
         run: docker build -t docker.pkg.github.com/msimmons/jpm/jpm-test:latest .
       - name: Docker Push
