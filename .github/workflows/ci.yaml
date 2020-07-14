@@ -51,3 +51,7 @@ jobs:
       #  run: echo "${{ toJson(steps.get_pull_request.outputs) }}"
       - name: Docker Login
         run: echo "${GITHUB_TOKEN} | docker login https://docker.pkg.github.com -u msimmons --password-stdin"
+      - name: Docker Build
+        run: docker build -t docker.pkg.github.com/msimmons/jpm/jpm-test:latest .
+      - name: Docker Push
+        run: docker push docker.pkg.github.com/msimmons/jpm/jpm-test:latest
