@@ -25,11 +25,14 @@ jobs:
   publish:
     name: Publish
     runs-on: ubuntu-latest
-    container: docker.pkg.github.com/msimmons/jpm/jpm-test:latest
     needs: build
     steps:
+      - name: Docker Login
+        run: docker login https://docker.pkg.github.com -u msimmons -p ${{ secrets.GITHUB_TOKEN }}
+      - name: Docker Pull
+        run: docker pull docker.pkg.github.com/msimmons/jpm/jpm-test:latest
       - name: List
-        run: ls
+        run: docker run --rm docker.pkg.github.com/msimmons/jpm/jpm-test:latest ls
       - name: PullRequest
         id: get_pull_request
         uses: octokit/request-action@v2.0.2
