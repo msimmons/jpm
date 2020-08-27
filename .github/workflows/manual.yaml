@@ -1,0 +1,17 @@
+name: Manual
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "The tag to deploy"
+        required: true
+      stack:
+        description: "The stack to deploy to"
+        required: true
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello ${{ github.event.inputs.tag }}!"
+        echo "- in ${{ github.event.inputs.stack }}!"
