@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  jpm:
+    command: node index.js
+    volumes:
+      - ./:/opt/jpm
+      - /opt/jpm/node_modules
+    build: ./
