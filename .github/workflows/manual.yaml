@@ -11,7 +11,17 @@ on:
 jobs:
   say_hello:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+       include:
+         - echo-command: echo "This is one thing"
+           migrate-command: echo "migrate something"
+           test-command: echo "test something"
+         - echo-command: echo "This is another thing"
+           migrate-command: echo "migrate something else"
+           test-command: echo "test something else"
     steps:
     - run: |
-        echo "Hello ${{ github.event.inputs.tag }}!"
-        echo "- in ${{ github.event.inputs.stack }}!"
+        {{ matrix.echo-command }}
+        {{ matrix.migrate-command }}
+        {{ matrix.test-command }}
