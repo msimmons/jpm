@@ -22,6 +22,6 @@ jobs:
            test-command: echo "test something else"
     steps:
     - run: |
-        {{ matrix.echo-command }}
-        {{ matrix.migrate-command }}
-        {{ matrix.test-command }}
+        ${{ matrix.echo-command }}
+        ${{ matrix.migrate-command }}
+        ${{ matrix.test-command }}
