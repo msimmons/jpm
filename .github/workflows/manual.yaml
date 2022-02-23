@@ -15,13 +15,21 @@ jobs:
       matrix:
        include:
          - echo-command: echo "This is one thing"
+           sleep-seconds: 3
            migrate-command: echo "migrate something"
            test-command: echo "test something"
          - echo-command: echo "This is another thing"
+           sleep-seconds: 5
            migrate-command: echo "migrate something else"
            test-command: echo "test something else"
     steps:
     - run: |
         ${{ matrix.echo-command }}
+        sleep ${{matrix.sleep-seconds}}
         ${{ matrix.migrate-command }}
         ${{ matrix.test-command }}
+  wait_for_it:
+    runs-on: ubuntu-latest
+    needs: say_hello:
+    steps:
+    - run: echo "I waited"
