@@ -1,6 +1,14 @@
 name: Manual
 on:
-  [workflow_dispatch, workflow_call]:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "The tag to deploy"
+        required: true
+      stack:
+        description: "The stack to deploy to"
+        required: true
+  workflow_call:
     inputs:
       tag:
         description: "The tag to deploy"
