@@ -24,7 +24,7 @@ jobs:
     strategy:
       matrix:
        include:
-         - echo-command: echo "This is one thing"
+         - echo-command: echo "This is one thing ${{inputs.tag}}"
            sleep-seconds: 3
            migrate-command: echo "migrate something"
            test-command: echo "test something"
