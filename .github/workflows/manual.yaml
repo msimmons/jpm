@@ -12,9 +12,11 @@ on:
     inputs:
       tag:
         description: "The tag to deploy"
+        type: string
         required: true
       stack:
         description: "The stack to deploy to"
+        type: string
         required: true
 jobs:
   say_hello:
