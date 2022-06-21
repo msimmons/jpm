@@ -19,7 +19,7 @@ jobs:
           echo "the tag would be ${TAG_TS}-${GITHUB_RUN_NUMBER}"
           DOCKER_TAG="$TAG_TS-$GITHUB_RUN_NUMBER"
           echo $DOCKER_TAG
-          echo "::set-output name=docker_tag::$DOCKER_TAG"
+          echo "::set-output name=docker_tag::$(echo $DOCKER_TAG)"
       # - name: Docker Login
       #   run: docker login https://docker.pkg.github.com -u msimmons -p ${{ secrets.GITHUB_TOKEN }}
       # - name: Docker Build
