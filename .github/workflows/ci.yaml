@@ -4,12 +4,6 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    steps:
-      - name: Dispatch
-        uses: ./.github/workflows/manual.yaml@develop
-        with:
-          stack: sbox0
-          tag: 1234
       - name: Checkout
         uses: actions/checkout@v2
       - name: Environment
@@ -17,7 +11,7 @@ jobs:
       - name: Timestamp
         run: |
           echo `date +%Y%m%d`
-          echo "::set-env name=TAG_TS::`date +%Y%m%d`"
+          echo "TAG_TS=`date +%Y%m%d`" >> $GITHUB_ENV
       - name: Build
         run: |
           echo "the tag would be ${TAG_TS}-${GITHUB_RUN_NUMBER}"
@@ -49,20 +43,8 @@ jobs:
           head: "msimmons:test-actions"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # - uses: octokit/request-action@v2.0.2
-      #   id: create_deployment
-      #   with:
-      #     route: POST /repos/:owner/:repo/deployments
-      #     owner: "msimmons"
-      #     repo: "jpm"
-      #     ref: "test-actions"
-      #     task: "deploy"
-      #     auto_merge: false
-      #     required_contexts: "[]"
-      #     payload: '{"key1": "value1", "key2": 3}'
-      #     environment: "sbox0"
-      #     description: "Not sure what to say here"
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #- name: EchoIt
-      #  run: echo "${{ toJson(steps.get_pull_request.outputs) }}"
+  call-workflow-passing-data:
+    uses: ./.github/workflows/manual.yaml
+    with:
+      tag: 1234
+      stack: sbox0
