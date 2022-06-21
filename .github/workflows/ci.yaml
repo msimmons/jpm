@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        id: build
         uses: actions/checkout@v2
       - name: Environment
         run: env | grep -i github
@@ -16,6 +17,7 @@ jobs:
       - name: Build
         run: |
           echo "the tag would be ${TAG_TS}-${GITHUB_RUN_NUMBER}"
+          echo "::set-output name=docker_tag::${TAG_TS}-${GITHUB_RUN_NUMBER}"
       - name: Docker Login
         run: docker login https://docker.pkg.github.com -u msimmons -p ${{ secrets.GITHUB_TOKEN }}
       - name: Docker Build
@@ -23,7 +25,7 @@ jobs:
       - name: Docker Push
         run: docker push docker.pkg.github.com/msimmons/jpm/jpm-test:latest
     outputs:
-      dockerTag: ${{ env.DOCKER_TAG }}
+      dockerTag: ${{ steps.build.docker_tag }}
   publish:
     name: Publish
     runs-on: ubuntu-latest
