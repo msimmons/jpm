@@ -17,13 +17,14 @@ jobs:
       - name: Build
         run: |
           echo "the tag would be ${TAG_TS}-${GITHUB_RUN_NUMBER}"
-          echo "::set-output name=docker_tag::${TAG_TS}-${GITHUB_RUN_NUMBER}"
-      - name: Docker Login
-        run: docker login https://docker.pkg.github.com -u msimmons -p ${{ secrets.GITHUB_TOKEN }}
-      - name: Docker Build
-        run: docker build -t docker.pkg.github.com/msimmons/jpm/jpm-test:latest .
-      - name: Docker Push
-        run: docker push docker.pkg.github.com/msimmons/jpm/jpm-test:latest
+          DOCKER_TAG=$TAG_TS-$GITHUB_RUN_NUMBER
+          echo "::set-output name=docker_tag::$DOCKER_TAG"
+      # - name: Docker Login
+      #   run: docker login https://docker.pkg.github.com -u msimmons -p ${{ secrets.GITHUB_TOKEN }}
+      # - name: Docker Build
+      #   run: docker build -t docker.pkg.github.com/msimmons/jpm/jpm-test:latest .
+      # - name: Docker Push
+      #   run: docker push docker.pkg.github.com/msimmons/jpm/jpm-test:latest
       - name: Echo tag
         run: echo ${{ steps.build.outputs.docker_tag }}
     outputs:
