@@ -23,7 +23,7 @@ jobs:
       - name: Docker Push
         run: docker push docker.pkg.github.com/msimmons/jpm/jpm-test:latest
     outputs:
-      dockerTag: ${{ DOCKER_TAG }}
+      dockerTag: $DOCKER_TAG
   publish:
     name: Publish
     runs-on: ubuntu-latest
