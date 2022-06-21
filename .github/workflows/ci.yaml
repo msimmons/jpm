@@ -24,8 +24,10 @@ jobs:
         run: docker build -t docker.pkg.github.com/msimmons/jpm/jpm-test:latest .
       - name: Docker Push
         run: docker push docker.pkg.github.com/msimmons/jpm/jpm-test:latest
+      - name: Echo tag
+        run: echo ${{ steps.build.outputs.docker_tag }}
     outputs:
-      dockerTag: ${{ steps.build.docker_tag }}
+      dockerTag: ${{ steps.build.outputs.docker_tag }}
   publish:
     name: Publish
     runs-on: ubuntu-latest
