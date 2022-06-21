@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        id: build
         uses: actions/checkout@v2
       - name: Environment
         run: env | grep -i github
@@ -15,10 +14,11 @@ jobs:
           echo `date +%Y%m%d`
           echo "TAG_TS=`date +%Y%m%d`" >> $GITHUB_ENV
       - name: Build
+        id: build
         run: |
           echo "the tag would be ${TAG_TS}-${GITHUB_RUN_NUMBER}"
-          echo $TAG_TS-$GITHUB_RUN_NUMBER
-          echo "::set-output name=docker_tag::$(echo $TAG_TS-$GITHUB_RUN_NUMBER)"          
+          DOCKER_TAG="$TAG_TS-$GITHUB_RUN_NUMBER"
+          echo "::set-output name=docker_tag::$DOCKER_TAG"
       # - name: Docker Login
       #   run: docker login https://docker.pkg.github.com -u msimmons -p ${{ secrets.GITHUB_TOKEN }}
       # - name: Docker Build
