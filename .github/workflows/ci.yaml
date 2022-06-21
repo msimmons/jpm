@@ -45,6 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   call-workflow-passing-data:
+    needs: publish
     uses: ./.github/workflows/manual.yaml
     with:
       tag: 1234
