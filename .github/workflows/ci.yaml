@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dispatch
-        uses: ./.github/workflows/manual
+        uses: ./.github/workflows/manual.yaml@develop
         with:
           stack: sbox0
           tag: 1234
