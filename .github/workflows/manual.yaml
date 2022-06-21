@@ -1,6 +1,6 @@
 name: Manual
 on:
-  workflow_dispatch:
+  [workflow_dispatch, workflow_call]:
     inputs:
       tag:
         description: "The tag to deploy"

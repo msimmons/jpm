@@ -5,6 +5,11 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: Dispatch
+        uses: ./.github/workflows/manual
+        with:
+          stack: sbox0
+          tag: 1234
       - name: Checkout
         uses: actions/checkout@v2
       - name: Environment
